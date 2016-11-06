@@ -1,0 +1,100 @@
+.address{
+    width:100%;
+    height:100%;
+    background: #f3f3f3;
+}
+.address .address_header {
+    width: 100%;
+    height: 1.40625rem;
+    display: flex;
+    background-color: #ff6600;
+    position: relative;
+}
+
+.address .address_header div:first-of-type {
+    width: 2rem;
+    height: 1.40625rem;
+    line-height: 1.40625rem;
+}
+
+.address_header_left .iconfont {
+    font-size: 0.625rem !important;
+    color: #fff;
+    text-indent: 0.3125rem;
+}
+
+.address .address_header div:nth-of-type(2) {
+    width: 6rem;
+    height: 1.40625rem;
+    font-size: 0.546875rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.40625rem;
+}
+
+.address .address_header div:last-of-type {
+    width: 2rem;
+    height: 1.40625rem;
+}
+
+.address .address_header div:last-of-type div {
+    width: 1.625rem;
+    /*height: 0.859375rem;*/
+}
+
+.address_infor{
+	width: 100%;	
+	background: #fff;
+}
+.address_infor ul{
+	width: 8.40625rem;
+	margin: 0 auto;
+}
+.address_infor li{
+	width: 100%;
+	height: 2.57815rem;
+	border-bottom: 0.03125rem solid #d2d2d2;
+}
+.address_infor li .address_infor_address{
+	width: 100%;
+	height:0.578125rem;
+	display: flex;
+}
+.address_infor li p{
+	width: 7.109375rem;
+	height:0.578125rem;
+	line-height: 0.578125rem;
+}
+.address_infor li div{
+	width: 1.30625rem;
+	height:0.578125rem;
+}
+.address_infor_div{
+	width: 1.30625rem;
+	height:0.578125rem;
+	border-radius: 0.15625rem;
+	line-height:0.578125rem;
+	text-align: center;
+	color: #fff;
+	background: orange;
+}
+
+/*点击增加地址*/
+.address .address_add{
+    width: 0.84375rem;
+    height: 0.84375rem;
+    line-height:  0.84375rem;
+    border: 1px solid #fe7113;
+    text-align: center;
+    color: #fe7113;
+    border-radius: 50%;
+    position: absolute;
+    bottom:0.5rem;
+    left:50%;
+    margin-left:-0.42187rem;
+
+}
+
+.tab-bar{
+    display: none;
+}

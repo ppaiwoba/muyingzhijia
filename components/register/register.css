@@ -1,0 +1,55 @@
+.tab-bar{
+    display: none !important;
+}
+.reg{
+    width:100%;
+    height:100%;
+    background-color: #fff;
+}
+.reg .reg_top{
+    width:10rem;
+    padding:0.625rem 0.3125rem 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    line-height:0.9375rem;
+}
+.reg .reg_top .iconfont{
+    font-size:0.625rem;
+    width:1rem;
+    color: #fea060;
+}
+.reg .reg_top h2{
+    text-align: center;
+    width:100%;
+    font-weight:normal;
+    font-size:0.5rem;
+}
+.reg .phone_code{
+    margin: 2.65625rem auto 0;
+    width:8.28125rem;
+    font-size:0.5625rem;
+    color: #a1a1a1;
+    font-weight:normal;
+}
+.reg .phone_code input{
+    width:100%;
+    height:1.59375rem;
+    border:0;
+    border-bottom: 2px solid #ffb480;
+    text-align: center;
+    outline:none;
+    font-size:0.5625rem;
+}
+.reg .phone_code input::-webkit-input-placeholder{
+    color: #d4d4d4;
+ }
+.reg .phone_code input::-moz-placeholder{
+    color: #d4d4d4;
+}
+.reg .phone_code .send_code{
+    margin-top: 0.75rem;
+    text-align: center;
+    font-family: "宋体";
+}

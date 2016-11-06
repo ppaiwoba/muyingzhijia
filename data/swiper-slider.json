@@ -1,0 +1,65 @@
+{
+  "DataList": [
+    {
+      "DataId": 8511,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201609/20160930100607_10_1242x580.jpg",
+      "MediaUrlSel": "",
+      "Title": "周年庆主会场",
+      "LinkUrl": "https://m.muyingzhijia.com/Activity/ActivePage?id=1071",
+      "StartTime": "2016-10-00 00:00:00",
+      "EndTime": "2016-10-15 00:00:00"
+    },
+    {
+      "DataId": 7157,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201610/20161010124747_10_1242x580.jpg",
+      "MediaUrlSel": "",
+      "Title": "周二美食趴",
+      "LinkUrl": "http://m.muyingzhijia.com/Activity/ActivePage?id=238",
+      "StartTime": "2016-10-00 00:00:00",
+      "EndTime": "2016-10-12 00:00:00"
+    },
+    {
+      "DataId": 8516,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201609/20160930101348_10_1242.jpg",
+      "MediaUrlSel": "",
+      "Title": "周年庆用品",
+      "LinkUrl": "http://m.muyingzhijia.com/Activity/ActivePage?id=1056",
+      "StartTime": "2016-10-00 00:00:00",
+      "EndTime": "2016-10-15 00:00:00"
+    },
+    {
+      "DataId": 8338,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201609/20160929111652_10_1242.jpg",
+      "MediaUrlSel": "",
+      "Title": "周四棉品日",
+      "LinkUrl": "http://m.muyingzhijia.com/Activity/ActivePage?id=1066",
+      "StartTime": "2016-10-00 00:00:00",
+      "EndTime": "2016-10-13 00:00:00"
+    },
+    {
+      "DataId": 8450,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201610/20161009113303_10_1242.jpg",
+      "MediaUrlSel": "",
+      "Title": "雅培新客招募",
+      "LinkUrl": "http://m.muyingzhijia.com/Activity/ActivePage?id=978",
+      "StartTime": "2016-09-00 00:00:00",
+      "EndTime": "2016-10-15 00:00:00"
+    },
+    {
+      "DataId": 8518,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201610/20161008133952_10_1242x580.jpg",
+      "MediaUrlSel": "",
+      "Title": "好奇",
+      "LinkUrl": "https://m.muyingzhijia.com/Activity/ActivePage?id=1083",
+      "StartTime": "2016-10-00 00:00:00",
+      "EndTime": "2016-10-24 00:00:00"
+    }
+  ],
+  "ModuleName": "轮播"
+}

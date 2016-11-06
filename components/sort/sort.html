@@ -1,0 +1,82 @@
+<div class="sort">
+	<div class='sort_header'>
+		<div class='top_logo'>
+			<div class="top_logo_img">
+				<img class="lazy-img" src="./images/logo.png" alt="">
+			</div>
+			<!-- 暂时测试跳转 -->
+			<a ui-sref="search">
+				<div class="top_logo_seach">
+		            <span>
+		                <i class="iconfont">&#xe602;</i>
+		            </span>
+
+					<input type="text" readonly="readonly" placeholder="搜索" class='sort_top_input'>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class='sort_main' >
+		<div class='sort_main_left' >
+			<ul id ='Ulclick'>
+				<!--数据展现在页面-->
+				<!--<a href="javascript:void(0);" ng-repeat="sort in sort"  ng-click="liChange($event)">
+					<li class="liClick">
+						<p>{{sort.ProductCategoryName}}</p>
+					</li>
+				</a>-->
+				<li class="addSortLi">
+					<p id="li1">妈妈专区</p>
+				</li>
+				<li class="liClick" >
+					<p id="li2">奶粉辅食</p>
+				</li>
+				<li class="liClick" >
+					<p id="li3">尿裤湿巾</p>
+				</li>
+				<li class="liClick">
+					<p id="li4">哺育喂养</p>
+				</li>
+				<li class="liClick">
+					<p id="li5">洗护用品</p>
+				</li>
+				<li class="liClick">
+					<p id="li6">宝宝服饰</p>
+				</li>
+				<li class="liClick">
+					<p id="li7">童车汽座</p>
+				</li>
+				<li class="liClick">
+					<p id="li8">学习玩具</p>
+				</li>
+				<li class="liClick">
+					<p id="li9">床椅寝具</p>
+				</li>
+			</ul>
+
+		</div>
+		<!-- 分类右半部分 -->
+
+		<div class="sort_main_right">
+			<div class='sortDivNull'></div>
+			<!-- 主题信息 -->
+			<!--从这里开始复制-->
+			<div class="sort_main_right_menu"  ng-repeat="secondName in CategoryList.PcList">
+				<div class="sort_main_right_menu_div ">
+					<h4>{{secondName.VchWebShowName}}</h4>
+					<ul>
+						<a ui-sref="searchFruit" ng-repeat="thirdName in secondName.PcList " ProductCategoryId={{thirdName.ProductCategoryId}}>
+							<li>
+								<img ng-src='{{thirdName.VchCatePic}}' alt="">
+								<p>{{thirdName.VchMobileShowName}}</p>
+							</li>
+						</a>
+					</ul>
+				</div>
+			</div>
+			<div class='sortDivNull2'></div>
+			<!-- 第一部分结束 -->
+		</div>
+
+	</div>
+</div>

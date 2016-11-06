@@ -1,0 +1,125 @@
+<!-- 商品详情信息 -->
+<div class="goodsMessage">
+    <!-- 搜索 -->
+    <div class='goodsMessage_header'>
+        <!-- 	 暂时测试跳转 -->
+        <a ui-sref="home">
+            <div class="goodsMessage_theader_left">
+                <i class="iconfont">&#xe601;</i>
+            </div>
+        </a>
+        <a ui-sref='search'>
+            <div class="goodsMessage_header_center">
+	            <span>
+	                <i class="iconfont">&#xe602;</i>
+	            </span>
+                <input type="text" readonly="readonly" placeholder="搜索" class='searchFruit_top_input'>
+            </div>
+        </a>
+        <a ui-sref="cart">
+            <div class="goodsMessage_headerCar">
+                <img src="./images/d_cart.png" alt="">
+                <span>0</span>
+            </div>
+        </a>
+    </div>
+    <!-- 结束 -->
+    <!-- 轮播图 -->
+    <div class="goodsMessage_top_top">
+        <div class="goodsMessage_topImg">
+            <ks-swiper-container>
+                <ks-swiper-slide>
+                    <!--<img src="./images/82001_01_01.jpg" alt="">-->
+                    <img ng-src={{mifi.pic_url}} alt="">
+                    <!--<img src="./images/82001_02_04.jpg" alt="">-->
+                </ks-swiper-slide>
+            </ks-swiper-container>
+            <!-- <img src="./images/82001_01_01.jpg"  alt=""> -->
+            <!-- <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/82001_01_01.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/82001_02_03.jpg" height="380" width="380" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/82001_02_04.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- 价格 -->
+    <div class="goodsMoneyMessage" ProductCategoryId={{mifi.gid}}>
+        <div class='goodsMessage_top'>
+            <p>￥<span>{{mifi.PromotionPrice}}</span></p>
+        </div>
+        <div class='goodsMessage_center'>
+            <p>{{mifi.title}}</p>
+            <p>{{mifi.PromotionTitle}}</p>
+        </div>
+    </div>
+    <div class="goodsMessage_sendmessage">
+        <p>{{mifi.WareHouseName}}</p>
+    </div>
+    <div class="goodsMessage_standard">
+        <div class='first_div'>
+            <p>规格</p>
+        </div>
+        <div class='goodsMessage_position'>
+            <p class='goodweight'>{{mifi.Color}}</p>
+            <i class="iconfont">&#xe607;</i>
+        </div>
+
+    </div>
+    <!-- 换 -->
+    <div class="goodsMessage_change">
+        <p class='change'>换</p>
+        <p>全场买即可换购（海淘商品除外）</p>
+        <i class="iconfont">&#xe603;</i>
+    </div>
+    <div class='goodsMessage_comment'>
+        <div class='goodsMessage_comment_top'>
+            <p>其他妈妈怎么说 <span class='goodsMessage_percent'>99%</span> 好评</p>
+            <p>(<span>32725</span>人)</p>
+            <i class="iconfont">&#xe603;</i>
+        </div>
+        <div class='goodsMessage_people'>
+            <div>
+                <img src="./images/c-photo.png">
+            </div>
+        </div>
+        <div class='goodsMessage_people_bottom'>
+            <p>一直在用,非常棒</p>
+        </div>
+    </div>
+    <div class='goodsMessage_massage'>
+        <div class="goodsMessage_massage_top">
+            <h3>商品参数和使用指南</h3>
+            <p>{{mifi.attrs[0].Key}}{{mifi.attrs[0].Value}}</p>
+            <!--<p>奶粉阶段：3段</p>-->
+            <!--<p>产地：荷兰</p>-->
+            <!--<p>奶粉类型：幼儿奶粉</p>-->
+        </div>
+        <div>
+            <img src="{{mifi.desc}}" alt="">
+        </div>
+    </div>
+
+
+    <div class='goodsMessage_bottom_addCar'>
+        <div class='goodsMessage_firstDiv'>
+            <img src="./images/c_service.png" alt="">
+        </div>
+        <div class='goodsMessage_twoDiv'>
+            <p class='minus'>-</p>
+            <input type="text" value='1' readonly="readonly">
+            <p class='add'>+</p>
+        </div>
+        <div class='goodsMessage_lastDiv'>
+            <input type="text" value="加入购物车" readonly="readonly">
+        </div>
+    </div>
+
+
+    <div class="null"></div>
+
+
+</div>

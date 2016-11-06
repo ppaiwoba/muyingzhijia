@@ -1,0 +1,96 @@
+<!-- Created by Knorien on 2016/10/9. -->
+<div class="cart">
+	<!--header-->
+		<div class="cart_header">
+				<div class="cart_header_left">
+					<a ui-sref="home">
+						<i class="iconfont">&#xe601;</i>
+					</a>
+				</div>
+			<div class="cart_header_center">购物车</div>
+			<div class="cart_header_right">
+				<div class="compile">编辑</div>
+			</div>
+		</div>
+	<!--商城-->
+	<div class="Classification" >
+		<div class="shop">
+			<div class="shop_">
+				<input type="checkbox" id="apple" class="checkedall" ng-click="checkedall()"/><label for="apple" >apple</label>
+				<p>母婴之家商城</p>
+			</div>
+		</div>
+
+		<div class="shop_title">
+			<div class="shop_title_">
+				<div class="shop_title_left">
+					<p>促</p>
+				</div>
+				<div class="shop_title_center">
+					<p >奶粉会场</p>
+					<p>{{join}}</p>
+				</div>
+				<div class="iconfont">
+					&#xe603;
+				</div>
+			</div>
+		</div>
+
+		<!--选中商品-->
+		<div class="shoping_box">
+			<!--商品种类-->
+			<div class="shoping_infor">
+				<div class="shoping_infor_box">
+					<!--选中图标-->
+					<div class="checked" ng-click="shoping_infor_box()">
+						<img src="./images/nocheck_pic.png" />
+					</div>
+					<div class="shoping_infor_img" ng-click="cart_show_box()">
+						<img src="./images/4657bc18d36f8229_160X160.jpg"/>
+					</div>
+					<div class="shoping_infor_product">
+						<p class="shoping_infor_name">z最早zzzZz转载自重中之重赵经理看来看就看了空间里鹏</p>
+						<span class="sub">-</span> <span class="pro_num">1</span>  <span class="add">+</span>
+					</div>
+					<div class="shoping_infor_price">
+						<em class="em">￥</em>418.00
+					</div>
+				</div>
+			</div>
+
+			<!--合计价钱-->
+			<div class="total">
+				<p>小计: <span><em class="em">￥</em></span><span>1312.2</span></p>
+			</div>
+		</div>
+	</div>
+<!--换购-->
+	<div class="shop_change">
+		<div class="shop_change_">
+			<div class="shop_change_left">
+				<p>换</p>
+			</div>
+			<div class="shop_change_center">
+				<h3>换购</h3>
+			</div>
+			<div class="iconfont">
+				&#xe603;
+			</div>
+		</div>
+	</div>
+<!--结算-->
+	<div class="shop_price">
+		<div class="shop_price_">
+			<!--全选图标-->
+			<input type="checkbox" id="apple1" class="checkedall" ng-click="checkedall()"/><label for="apple" >apple</label>
+			<p class="check_all">全选</p>
+			<div class="shop_price_center">
+				<p>总计: <span>ads</span></p>
+				<p>不含运费</p>
+			</div>
+			<div class="shop_price_right">
+				<a ui-sref="address">去结算</a>
+			</div>
+		</div>
+	</div>
+</div>

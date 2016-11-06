@@ -1,0 +1,55 @@
+{
+  "DataList": [
+    {
+      "DataId": 8366,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201608/20160823105544_10_banner-532x780.jpg",
+      "MediaUrlSel": "",
+      "Title": "新客领大浴盆",
+      "LinkUrl": "http://m.muyingzhijia.com/Activity/ActivePage?id=969",
+      "StartTime": "2016-07-00 00:00:00",
+      "EndTime": "2020-08-05 00:00:00"
+    },
+    {
+      "DataId": 8237,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201607/20160728135116_10_sjzmd.jpg",
+      "MediaUrlSel": "",
+      "Title": "世界这么大美食迟到听不了",
+      "LinkUrl": "https://m.muyingzhijia.com/Activity/ActivePage?id=587",
+      "StartTime": "2016-08-00 00:00:00",
+      "EndTime": "2016-11-01 00:00:00"
+    },
+    {
+      "DataId": 8523,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201610/20161009103833_10_pt355x390.jpg",
+      "MediaUrlSel": "",
+      "Title": "拼团",
+      "LinkUrl": "http://m.muyingzhijia.com/sales/bargainteam/?act=6905703819b38864",
+      "StartTime": "2016-10-00 00:00:00",
+      "EndTime": "2016-10-19 00:00:00"
+    },
+    {
+      "DataId": 8521,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201610/20161008150511_10_zb355x390.jpg",
+      "MediaUrlSel": "",
+      "Title": "幸运转盘",
+      "LinkUrl": "http://m.muyingzhijia.com/sales/lottery/?actkey=e7f264b4b411601d",
+      "StartTime": "2016-10-00 00:00:00",
+      "EndTime": "2016-10-19 00:00:00"
+    },
+    {
+      "DataId": 8365,
+      "MediaType": 1,
+      "SmallPic": "http://img.boodoll.cn/img/201607/20160728140744_10_cc355x390.jpg",
+      "MediaUrlSel": "",
+      "Title": "租赁",
+      "LinkUrl": "https://m.muyingzhijia.com/Special/RentColumn",
+      "StartTime": "2016-07-00 00:00:00",
+      "EndTime": "2017-01-02 00:00:00"
+    }
+  ],
+  "ModuleName": "今日活动"
+}

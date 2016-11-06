@@ -1,0 +1,91 @@
+
+
+<div class="makeaddress">
+    <!--隐藏栏-->
+    <div class="makeaddress_city" ng-hide="makeaddress_city_hide_show" ng-click="hideall()"></div>
+      <div class="makeaddress_city_box" ng-hide="makeaddress_city_hide_show">
+          <div class="makeaddress_city_box_city">
+            <ul>
+		        <p ng-click='toggle($event,$index)' data-id='{{cityId}}'>{{title}}</p>
+		        <li ng-repeat='city in list' ng-show='aa' ng-click='toggle($event,$index)'>{{city.name}}</li>
+        	</ul>      
+            </div>
+          
+            <div class="makeaddress_city_box_city">
+                 <ul>
+			        <p ng-click='toggle1($event,$index)' data-idx='{{cityIdx}}'>{{title1}}</p>
+			        <li ng-repeat='county in list1' ng-show='bb' ng-click='toggle1($event,$index)' >{{county.name}}</li>
+       			 </ul>  
+            </div>
+          </div>
+    <!--头部-->
+    <div class="makeaddress_header">
+        <div class="makeaddress_header_left">
+            <a ui-sref="address">
+                <i class="iconfont">&#xe601;</i>
+            </a>
+        </div>
+        <div class="makeaddress_header_center">地址管理</div>
+        <div class="makeaddress_header_right">
+            <div class="compile"></div>
+        </div>
+    </div>
+    <!--填写地址栏-->
+    <form name=" myForm" novalidate="novalidate" ng-submit="save()"> <!--novalidate阻止提交-->
+    <div class="makeaddress_infor">
+    	
+        <uL>
+            <li>
+                <div class="makeaddress_infor_name">
+                <input type="text" name="user" ng-model="user" required placeholder="收件人姓名" class="input_name">
+  				<span style="color:red" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+  					<span ng-show="myForm.user.$error.required">不能为空哦</span>
+  				</span>
+                </div>
+                <div></div>
+            </li>
+            <li ng-click="city_()">
+                <div class="makeaddress_infor_city">
+                 <input type="tetx" placeholder="所在地址" readonly="readonly" class="input_city"/>
+                </div>
+                <div class="iconfont">&#xe603;</div>
+            </li>
+            <li>
+                <div class="makeaddress_infor_site" >
+                    <input type="tetx" placeholder="详细地址" name="site" ng-model="site" required class="input_site"/>
+                <span  ng-show="myForm.site.$dirty && myForm.site.$invalid">
+  					<span ng-show="myForm.site.$error.required">请输入您的详细地址</span>
+  				</span>
+                </div>
+                <div></div>
+            </li>
+            <li>
+                <div class="makeaddress_infor_name">
+                      
+   			 	<input type="text" placeholder="手机号码" name="phone" ng-model="phone" required  ng-pattern="/^1[3|5|8|][0-9]\d{8}$/"  class="input_phone"/>
+                 <span  class="landing_input_mail_correct" style="color:red" ng-show="myForm.phone.$dirty && myForm.phone.$invalid">
+                    <span ng-show="myForm.phone.$error">请输入您的手机号</span>
+                </span>
+                </div>
+                <div></div>
+            </li>
+            <li>
+               <p>设为常用地址:</p>
+                <div class="makeaddress_infor_checkbox" >
+                    <input type="checkbox" id="makeaddress_flase" />
+                    <label for="makeaddress_flase" ng-click="move_()"></label>
+                    <span></span>
+                </div>
+
+            </li>
+        </uL>
+	
+    </div>
+    
+    <div class="makeaddress_presver" ng-click="newcity()">
+    	<a  ng-click="save()">
+       		<input type="submit" value="保存" />
+       	</a>
+    </div>
+    </form>
+    </div>

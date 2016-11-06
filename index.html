@@ -1,0 +1,51 @@
+<!-- Created by Knorien on 2016/10/9. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>母婴之家</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <!--<link rel="stylesheet" type="text/css" href="./swiper/swiper.min.css">-->
+    <link rel="stylesheet" type="text/css" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+
+    <!--容器-->
+    <div class="container" ui-view></div>
+
+    <!--底部切换按钮-->
+    <footer class="tab-bar">
+        <a ui-sref="home">
+            <div>
+                <img src="./images/m-icon1-1.png" alt="">
+            </div>
+            <p>首页</p>
+        </a>
+        <a ui-sref="sort">
+            <div>
+                <img src="./images/m-icon2.png" alt="">
+            </div>
+            <p>分类</p>
+        </a>
+        <a ui-sref="cart">
+            <div>
+                <img src="./images/m-icon3.png" alt="">
+            </div>
+            <p>购物车</p>
+        </a>
+        <a ui-sref="landing">
+            <div>
+                <img src="./images/m-icon4.png" alt="">
+            </div>
+            <p>账户</p>
+        </a>
+    </footer>
+
+    <!--回到顶部-->
+    <div class="actGotop"><i class="iconfont">&#xe606;</i></div>
+
+    <script type="text/javascript" src="./lib/require.js" defer async data-main="./script/app.js"></script>
+</body>
+</html>

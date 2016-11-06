@@ -1,0 +1,291 @@
+.order{
+    width:100%;
+    height:100%;
+}
+.order .em{
+    font-style:normal
+}
+.order .order_header{
+    width: 100%;
+    height: 1.40625rem;
+    display: flex;
+    background-color:#ff6600 ;
+}
+.order .order_header div:first-of-type{
+    width: 2rem;
+    height:1.40625rem;
+    line-height:1.40625rem;
+}
+.order_header_left .iconfont{
+    font-size: 0.625rem !important;
+    color: #fff;
+    text-indent: 0.3125rem;
+}
+.order .order_header div:nth-of-type(2){
+    width: 6rem;
+    height:1.40625rem;
+    font-size: 0.546875rem;
+    color: #fff;
+    text-align: center;
+    line-height:1.40625rem;
+}
+.order .order_header div:last-of-type{
+    width: 2rem;
+    height:1.40625rem;
+}
+.order .order_header div:last-of-type div{
+    width: 1.625rem;
+    height: 0.859375rem;
+    border:0.03125rem solid #fff;
+    border-radius:0.078125rem ;
+    text-align: center;
+    line-height: 0.859375rem;
+    margin:0.28125rem 0 0 0;
+    font-size:0.28125rem;
+    color: #fff;
+}
+/*确认地址*/
+.order_address{
+    width:100%;
+    height:1.546875rem;
+    display: flex;
+    align-items: center;
+    /*border-bottom: 0.015625rem solid #f4f4f4;*/
+    background: #fff;
+}
+.order_address .order_address_{
+    width:9.375rem;
+    height:1.171875rem;
+    margin:0 auto;
+    display: flex;
+    line-height:1.171875rem;
+}
+.order_address_ .order_address_left {
+    width:8.859375rem;
+    height:1.171875rem;
+    font-size: 0.421875rem;
+}
+.order_address_ .iconfont{
+    color: #c4c4c4;
+    font-size: 0.609375rem !important;
+}
+.background_{
+    width:100%;
+    height:0.078125rem;
+    background-image: linear-gradient(to bottom, #f4f4f4,#fff);
+}
+.order_address_infor{
+    width:100%;
+    height:2.96875rem;
+    background: #fff;
+    margin:0.390625rem 0 0.46875rem 0;
+}
+.order_address_infor .order_address_infor_next{
+    padding-top:0.25rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:9.375rem;
+    height:2.96875rem;
+    margin:0 auto;
+    font-size:0.296875rem;
+    color: #949293;
+}
+.order_address_infor .order_address_infor_next p{
+
+    line-height:0.6875rem;
+}
+.order_address_pay{
+    width:100%;
+    height:1.75rem;
+    background-color: #fff;
+    margin:0 0 0.46875rem 0;
+    border-top: 0.03125rem solid #efefef;
+}
+.order_address_pay .order_address_pay_null{
+    width:9.375rem;
+    height:1.75rem;
+    margin:0 auto;
+    line-height:1.75rem;
+}
+/*===母婴之家=*/
+.order_shop{
+    width:100%;
+    background: #fff;
+
+}
+.order_shop .order_shop_{
+    width:100%;
+    height:1.171875rem;
+    border-bottom:0.03125rem solid #f6f6f6;
+}
+.order_shop_ .order_shop_name{
+    width:9.375rem;
+    height:1.171875rem;
+    margin:0 auto;
+    line-height:1.171875rem;
+}
+ .order_shop_infor{
+    width:100%;
+}
+.order_shop_infor .order_shop_infor_kind{
+    width:100%;
+    height:2.53125rem;
+
+    border-bottom:1px solid #f6f6f6;
+    display: flex;
+    align-items: center;
+}
+.order_shop_infor_kind .order_shop_infor_kind_box{
+    width:9.375rem;
+    height:1.71875rem;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.order_shop_infor_kind_box .order_shop_infor_img {
+    height:1.71875rem;
+    width:1.71875rem;
+    margin:0 0.625rem 0 0  ;
+}
+.order_shop_infor_kind_box .order_shop_infor_img img{
+    width:100%;
+    height:100%;
+}
+
+.order_shop_infor_kind_box .order_shop_infor_product{
+    width:4.140625rem;
+    height:1.71875rem;
+    font-size:0.28125rem;
+    position: relative;
+}
+.order_shop_infor_kind_box .order_shop_infor_product p:first-of-type{
+    width:4.140625rem;
+    height:0.96875rem;
+    overflow-y: hidden;
+    
+}
+.order_shop_infor_kind_box .order_shop_infor_product p:last-of-type{
+    font-size:0.234375rem;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.order_shop_infor_kind_box .order_shop_infor_price{
+    position: absolute;
+    right:0;
+    top:0;
+}
+.order_shop .order_shop_money{
+    width:100%;
+    height:2.34375rem;
+    display: flex;
+    align-items: center;
+}
+.order_shop_money .order_shop_money_box {
+    width:9.375rem;
+    height:1.492085rem;
+    margin:0 auto;
+    font-size: 0.234375rem;
+}
+.order_shop_money_box .order_shop_money_box_money{
+    width:4rem;
+    height:1.492085rem;
+    float: right;
+}
+.order_shop_money_box_money div p {
+    display: inline-block;
+}
+.order_shop_money_box_money div p:first-of-type {
+    width:2rem;
+    text-align: right;
+}
+.order_shop_money_box_money div p:last-of-type {
+    width:2rem;
+    text-align: right;
+}
+/*======兑换=====*/
+.order_exchange{
+    width:100%;
+    height:1.40625rem;
+    display: flex;
+    align-items: center;
+    margin:0.43125rem 0 3rem 0;
+    background-color: #fff;
+}
+.order_exchange .order_exchange_left{
+    width:6.40625rem;
+    margin:0 0 0 0.46875rem;
+    height:1.40625rem;
+    display: flex;
+    align-items: center;
+}
+.order_exchange_left .order_exchange_left_ico{
+    width:0.5rem;
+    hieght:0.5rem;
+    margin:0 0.296875rem 0 0;
+}
+.order_exchange_left .order_exchange_left_ico img{
+    width:100%;
+    height:100%;
+}
+.order_exchange .order_exchange_left input{
+    outline: none;
+    border: none;
+}
+.order_exchange .order_exchange_right{
+    width:3.125rem;
+    height:1.40625rem;
+    border:1px solid #f88222;
+    text-align: center;
+    border-radius: 0.4625rem;
+    line-height:1.546875rem;
+    color: #a88569;
+    font-size: 0.296875rem;
+}
+
+
+/*====总价钱=====*/
+ .order_shop_price{
+    width:100%;
+     height:1.40625rem;
+    display: flex;
+    align-items: center;
+    margin:0.43125rem 0 0 0;
+    background-color: #fff;
+    position: absolute;
+   bottom: 0;
+     left:0;
+     z-index: 9999;
+}
+.order_shop_price .order_shop_price_left{
+    width:6.40625rem;
+    margin:0 0 0 0.46875rem;
+    height:1.40625rem;
+}
+.order_shop_price .order_shop_price_left h3{
+    font-size: 0.390625rem;
+    font-weight: bold;
+    margin:0.1125rem 0 0;
+}
+.order_shop_price .order_shop_price_left h3 span{
+    font-size:0.296875rem ;
+    color: #f66100;
+}
+.order_shop_price .order_shop_price_left p{
+    display: inline-block;
+}
+.order_shop_price .order_shop_price_left p span{
+    color: red;
+}
+
+.order_shop_price .order_shop_price_right{
+    width:3.125rem;
+    height:1.40625rem;
+    background: #d3d3d3;
+    text-align: center;
+    line-height:1.546875rem;
+    color: #949494;
+    font-size: 0.296875rem;
+}

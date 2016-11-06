@@ -1,0 +1,102 @@
+<div class="babyHome">
+    <!--顶部-->
+    <div class="babyHome_header">
+        <div class="babyHome_header_left">
+            <a ui-sref="home">
+                <i class="iconfont">&#xe601;</i>
+            </a>
+        </div>
+        <div class="babyHome_header_center">新人专享 - 商品精选</div>
+        <div class="babyHome_header_right">
+            <div class="compile"></div>
+        </div>
+    </div>
+    <!--banner-->
+    <div class="babyHome_banner">
+        <img src="./images/20160720151828_10_xkhd_05.jpg"/>
+    </div>
+    <!--新人特权-->
+    <div class="babyHome_top">
+        <img src="./images/20160721134651_10_20160720152002_10_xkhd_06.jpg"/>
+    </div>
+    <div class="babyHome_time">
+        <p>新客专享每个账号限购两件</p>
+        <span><i class="iconfont">&#xe608;</i></span>
+    </div>
+    <!--商品信息-->
+    <div class="babyHome_shoping">
+        <ul>
+            <li ng-repeat="shop_info in exclusive" ProductId="{{shop_info.ProductId}}">
+                <div class="babyHome_shoping_img">
+                    <img ng-src="{{shop_info.ImgUrl}}"/>
+                </div>
+                <div class="babyHome_shoping_name">
+                    {{ shop_info.ProductName}}
+                </div>
+                <p class="text"></p>
+                <div class="babyHome_shoping_price">
+                    <div class="babyHome_shoping_price_left">
+                        <span><em class="babyHome_em">￥</em>{{shop_info.PromPriceShow}}</span>
+                    </div>
+                    <div class="babyHome_shoping_price_right">
+                        <span>立即抢购</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--品牌纸尿裤-->
+    <div class="babyHome_bottom">
+        <img src="./images/20160810162445_10_ppznk.jpg"/>
+    </div>
+
+    <!--品牌纸尿裤-->
+    <div class="babyHome_shoping_netx">
+        <ul>
+            <li ng-repeat="baby_home_shop in diaper" ProductId="{{baby_home_shop.ProductId}}">
+                <div class="babyHome_shoping_netx_img">
+                    <img ng-src="{{baby_home_shop.ImgUrl}}"/>
+                </div>
+                <div class="babyHome_shoping_netx_name">
+                    {{ baby_home_shop.ProductName}}
+                </div>
+                <p class="text">妈咪特产</p>
+                <div class="babyHome_shoping_netx_price">
+                    <div class="babyHome_shoping_netx_price_left">
+                        <span><em class="babyHome_em">￥</em>{{baby_home_shop.PromPriceShow}}</span>
+                    </div>
+                    <div class="babyHome_shoping_netx_price_right">
+                        <span>立即抢购</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--脚部-->
+    <div class="babyHome_footer_banner">
+        <img src="./images/20160720152331_10_xkhd_10.jpg"/>
+    </div>
+    <!---->
+    <div class="babyHome_footer">
+        <ul>
+            <li>
+                <div class="babyHome_enter">
+                    <img src="./images/icon_login.png"/>
+                </div>
+                <a ui-sref="landing">
+                    <p>登录</p>
+                </a>
+            </li>
+            <li>
+                <div>
+                    <img src="./images/icon_signup.png"/>
+                </div>
+                <a ui-sref="landing">
+                    <p>注册</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+</div>

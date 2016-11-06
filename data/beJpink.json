@@ -1,0 +1,100 @@
+{
+  "GoodsDetails": {
+    "gid": 201218,
+    "title": "贝杰粉色圆点大包 T14006",
+    "brand": "贝杰/Bellotte",
+    "BrandPic": "http://img.boodoll.cn//pdt/brand/img/a1/804.jpg",
+    "pic_url": "http://img.boodoll.cn/pdt/img/b5/55786039a70c4545_380x380.jpg",
+    "SaleState": 2,
+    "FromSaleQty": 1,
+    "SpecShowId": 0,
+    "SaleModel": 0,
+    "attrs": [
+      {
+        "Key": "商品名称",
+        "Value": "贝杰粉色圆点大包 T14006"
+      },
+      {
+        "Key": "产地",
+        "Value": "中国"
+      },
+      {
+        "Key": "背法",
+        "Value": "单肩,手提,斜跨"
+      }
+    ],
+    "Color": "粉色圆点",
+    "desc": "http://img.boodoll.cn//pdt/desc/201604/20160421170027_555_6359685484458783491306773.jpg",
+    "price": 199,
+    "stock": 5,
+    "marketprice": 288,
+    "score": 5,
+    "ProductType": 1,
+    "PromotionId": 12328,
+    "PromotionPrice": 129,
+    "PromotionBeginTime": "/Date(1475251200000-0000)/",
+    "PromotionEndTime": "/Date(1477929600000-0000)/",
+    "PromotionState": 0,
+    "PromotionTitle": "大件专场",
+    "PromotionBuyTopLimit": 0,
+    "PromotionTime": 0,
+    "IsSecondKill": false,
+    "CommentCount": 0,
+    "Commentstar": 0,
+    "CategoryId": 11,
+    "IsStart": false,
+    "ProductAttr": 0,
+    "brandId": 804,
+    "vchCateName": "妈妈专区",
+    "vchCateChildName": "外出用品",
+    "vchCateThirdName": "妈妈包",
+    "intWebChildType": 98,
+    "intWebThirdType": 190,
+    "Category1stErp": 10,
+    "Category2ndErp": 10047,
+    "Category3rdErp": 10111,
+    "Category1stNameErp": "居家外出",
+    "Category2ndNameErp": "箱包",
+    "Category3rdNameErp": "妈妈包",
+    "intAttribute": 1,
+    "WareHouseName": "母婴之家发货",
+    "WareHouseSysNo": 100,
+    "TaxRate": 17,
+    "Tariff": 0,
+    "MallType": 1,
+    "CarriageStrategySysNo": 1,
+    "PayStrategySysNo": 1,
+    "SupplierId": 611,
+    "Customsinformation": 0,
+    "DeliveryType": 1,
+    "SpecOrder": 0,
+    "ColorOrder": 1168,
+    "ReturnOfGoodsTips": "出库15天内可退货√",
+    "IsPromotionLimit": false
+  },
+  "GoodsSpecList": [
+    {
+      "GoodsId": 201219,
+      "Color": "浅蓝色圆点",
+      "Stock": 4,
+      "Price": 199,
+      "Name": "贝杰蓝色圆点大包 T14007",
+      "Pic": "http://img.boodoll.cn/pdt/img/s4/254d70ebfd62d92f_380x_380.jpg",
+      "SpecOrder": 0,
+      "ColorOrder": 706,
+      "SaleStatus": 2
+    }
+  ],
+  "ProductImageList": [
+    {
+      "url": "http://img.boodoll.cn/pdt/img/b5/55786039a70c4545_380x_380.jpg"
+    }
+  ],
+  "GoodsCoupons": {
+    "AllCouponNum": 0,
+    "IsGetCoupon": false,
+    "ReceivedNum": 0
+  },
+  "ResponseStatus": {},
+  "DoFlag": true
+}

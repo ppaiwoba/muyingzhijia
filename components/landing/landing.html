@@ -1,0 +1,42 @@
+!--输入账号密码页面-->
+<div class="landing">
+    <!--头部-->
+    <div class="landing_header">
+        <a ui-sref="home"><div><i class="iconfont">&#xe601;</i></div></a>
+        <p>登录</p>
+    </div>
+    <!--输入账号密码-->
+    <div class="landing_input">
+        <!--表单验证-->
+        <form action="" name="myForm" novalidate>
+            <div class="landing_input_mail">
+              <input type="text" name="user" ng-model="user" required>
+				<span style="color:red" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+				  <span ng-show="myForm.user.$error.required">用户名是必须的。</span>
+				</span>
+
+                <!--<input type="email" name="email" ng-model="user.email" />-->
+
+                <!--<input type="text" ng-pattern="/[a-zA-Z]/" />-->
+
+                <!--<input type="number" name="age" ng-model="user.age" />-->
+            </div>
+            <div class="landing_input_mail">
+                <input type="email" placeholder="请输入密码(6-20位数字、字母、符号)" name="email" ng-model="email" required>
+                <span  class="landing_input_mail_correct" style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+                    <span style="color:red" ng-show="myForm.email.$error.required">密码不能为空</span>
+                    <span style="color:red" ng-show="myForm.email.$error.email">输入的密码不正确</span>
+                    <span style="color:green" ng-show="myForm.email.$invalid.required">输入正确</span>
+                </span>
+
+            </div>
+        </form>
+
+        <div class="landing_input_forget">忘记密码</div>
+        <a ui-sref="mine"><div class="landing_input_btn">登陆</div></a>
+        <div class="landing_input_footer">
+            <div><a ui-sref="register">新用户注册</a></div>
+            <div>手机验证码登录</div>
+        </div>
+    </div>
+</div>

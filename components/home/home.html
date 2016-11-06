@@ -1,0 +1,181 @@
+<!-- Created by Knorien on 2016/10/9. -->
+<div class="home">
+    <!--顶部logo和搜索-->
+    <div class="home_top">
+        <div class="home_logo">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <div class="home_search">
+            <a ui-sref="search">
+                <span>
+                    <i class="iconfont">&#xe602;</i>
+                </span>
+                <input type="text" placeholder="搜索">
+            </a>
+        </div>
+    </div>
+    <!--轮播图-->
+    <div class="home_banner">
+        <ks-swiper-container swiper="swiper" on-ready="onReadySwiper(swiper)"
+                             initial-slide="0" slides-per-view="1"
+                             slides-per-column="1" space-between="0"
+                             pagination-is-active="true" pagination-clickable="true"
+                             loop="true" autoplay="2000" direction="horizontal"
+                            >
+            <ks-swiper-slide class="swiper-slide" ng-repeat="img in swiper_slider">
+                <img ng-src={{img.SmallPic}} ng-alt={{img.Title}}>
+            </ks-swiper-slide>
+        </ks-swiper-container>
+    </div>
+    <!--公告tips-->
+    <div class="home_notice">
+        <div class="notice_tips">
+            <span>公告</span>
+        </div>
+        <div class="notice_news">
+            <ks-swiper-container swiper="swiper" on-ready="onReadySwiper(swiper)" slides-per-view="1"
+                                 slides-per-column="1" space-between="0"
+                                 pagination-is-active="false" pagination-clickable="false"
+                                 loop="true" autoplay="2000" initial-slide="0" direction="vertical">
+                <ks-swiper-slide ng-repeat="news in notice">
+                    <p>{{news.Title}}</p>
+                </ks-swiper-slide>
+            </ks-swiper-container>
+        </div>
+    </div>
+    <!--中层导航-->
+    <div class="home_nav">
+            <a ng-repeat="navdata in nav" ui-sref={{navdata.localLink}}>
+                <div class="nav_list">
+                    <div class="nav_icon">
+                        <img ng-src={{navdata.SmallPic}} alt={{navdata.Title}}>
+                    </div>
+                    <p class="nav_title">{{navdata.Title}}</p>
+                </div>
+            </a>
+    </div>
+    <!--今日活动-->
+    <div class="home_activity">
+        <div class="activity_title">
+            <span class="left_girl">
+                <img src="./images/h-left-girl.png" alt="">
+            </span>
+            <h4 class="activity_tips">今日活动</h4>
+        </div>
+        <div class="activity_list">
+            <div class="list_item" ng-repeat="activity in activity">
+                <a href="javascript:void(0);">
+                    <img ng-src={{activity.SmallPic}} ng-alt={{activity.Title}}>
+                </a>
+            </div>
+            <!--<div class="list_item">-->
+            <!--<a href="javascript:void(0);">-->
+            <!--<img src="./images/20160728135116_10_sjzmd.jpg" alt="">-->
+            <!--</a>-->
+            <!--</div>-->
+            <!--<div class="list_item">-->
+            <!--<a href="javascript:void(0);">-->
+            <!--<img src="./images/20161008150511_10_zb355x390.jpg" alt="">-->
+            <!--</a>-->
+            <!--</div>-->
+            <!--<div class="list_item">-->
+            <!--<a href="javascript:void(0);">-->
+            <!--<img src="./images/20161009103833_10_pt355x390.jpg" alt="">-->
+            <!--</a>-->
+            <!--</div>-->
+            <!--<div class="list_item">-->
+            <!--<a href="javascript:void(0);">-->
+            <!--<img src="./images/20160728140744_10_cc355x390.jpg" alt="">-->
+            <!--</a>-->
+            <!--</div>-->
+        </div>
+    </div>
+    <!--今日专场-->
+    <div class="home_pd">
+        <div class="pd_list">
+            <h4 class="pd_title">
+                <fieldset>
+                    <legend>今日专卖</legend>
+                </fieldset>
+            </h4>
+            <a ng-href={{pd.AppClickUrl}} class="pd_items" ng-repeat="pd in pd">
+                <img ng-src={{pd.PictureUrl}} alt="">
+                <div class="surplus_time"><span>剩余1天</span></div>
+                <div class="bottom_titles">
+                    <h4 class="pd_tips">{{pd.SubjectName}}</h4>
+                    <span class="pd_price">{{pd.OriDiscount}}</span>
+                </div>
+            </a>
+            <!--<div class="pd_items">-->
+            <!--<img src="./images/20161010092858_10_1182.jpg" alt="">-->
+            <!--<div class="surplus_time"><span>剩余1天</span></div>-->
+            <!--<a href="javascript:void(0);">-->
+            <!--<h4 class="pd_tips">周年庆纸尿裤</h4>-->
+            <!--<span class="pd_price">￥13.00起</span>-->
+            <!--</a>-->
+            <!--</div>-->
+            <!--<div class="pd_items">-->
+            <!--<img src="./images/20161010092858_10_1182.jpg" alt="">-->
+            <!--<div class="surplus_time"><span>剩余1天</span></div>-->
+            <!--<a href="javascript:void(0);">-->
+            <!--<h4 class="pd_tips">周年庆纸尿裤</h4>-->
+            <!--<span class="pd_price">￥13.00起</span>-->
+            <!--</a>-->
+            <!--</div>-->
+        </div>
+        <div class="pd_list">
+            <h4 class="pd_title">
+                <fieldset>
+                    <legend>今日专卖</legend>
+                </fieldset>
+            </h4>
+            <div class="pd_items">
+                <img src="./images/20161010092858_10_1182.jpg" alt="">
+                <div class="surplus_time"><span>剩余1天</span></div>
+                <a href="javascript:void(0);">
+                    <h4 class="pd_tips">周年庆纸尿裤</h4>
+                    <span class="pd_price">￥13.00起</span>
+                </a>
+            </div>
+            <div class="pd_items">
+                <img src="./images/20161010092858_10_1182.jpg" alt="">
+                <div class="surplus_time"><span>剩余1天</span></div>
+                <a href="javascript:void(0);">
+                    <h4 class="pd_tips">周年庆纸尿裤</h4>
+                    <span class="pd_price">￥13.00起</span>
+                </a>
+            </div>
+            <div class="pd_items">
+                <img src="./images/20161010092858_10_1182.jpg" alt="">
+                <div class="surplus_time"><span>剩余1天</span></div>
+                <a href="javascript:void(0);">
+                    <h4 class="pd_tips">周年庆纸尿裤</h4>
+                    <span class="pd_price">￥13.00起</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--loading-->
+    <div class="home_loading hide">
+        <div class="load_img">
+            <img src="./images/loading.gif" alt="">
+        </div>
+        <p class="load_tips">正在努力加载....</p>
+    </div>
+    <div class="client_type">
+        <div class="type_item type_app">
+            <div class="type_icon"></div>
+            <p class="type_tips">客户端</p>
+        </div>
+        <div class="type_item type_touch">
+            <div class="type_icon"></div>
+            <p class="type_tips">触屏版</p>
+        </div>
+        <div class="type_item type_pc">
+            <div class="type_icon"></div>
+            <p class="type_tips">电脑版</p>
+        </div>
+    </div>
+</div>
+
+

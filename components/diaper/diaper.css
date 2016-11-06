@@ -1,0 +1,335 @@
+.diaper{
+    width:100%;
+    height:100%;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+.diaper em{
+    font-style: normal;
+}
+/*!*顶部*!*/
+.diaper .diaper_header{
+    width: 100%;
+    height: 1.40625rem;
+    display: flex;
+    background-color: #fff;
+    position: relative;
+}
+.diaper .diaper_header div:first-of-type{
+    width: 2rem;
+    height:1.40625rem;
+    line-height:1.40625rem;
+}
+.diaper_header_left{
+    text-align: center;
+}
+.diaper_header_left .iconfont{
+    font-size: 0.625rem !important;
+    text-indent: 0.3125rem;
+}
+.diaper .diaper_header div:nth-of-type(2){
+    width: 6rem;
+    height:1.40625rem;
+    font-size: 0.546875rem;
+    text-align: center;
+    line-height:1.40625rem;
+}
+.diaper .diaper_header div:last-of-type{
+    width: 2rem;
+    height:1.40625rem;
+    display: flex;
+    align-items: center;
+
+}
+.diaper .diaper_header div:last-of-type div{
+    width: 1.125rem;
+    height: 1.046875rem;
+    margin: 0 auto;
+}
+.diaper .diaper_header div:last-of-type div img{
+    width:100%;
+    height:100%;
+}
+.diaper_header div:last-of-type div .diaper_number{
+    width:0.265625rem;
+    height:0.390625rem;
+    line-height:0.265625rem;
+    text-align: center;
+    position: absolute;
+    top:0;
+    right:0.80625rem;
+    border-radius:30%;
+    background-color:#ff8402 ;
+    color: #fff;
+}
+/*banner*/
+.diaper_banner{
+    width:100%;
+    height:3.90625rem;
+}
+.diaper_banner img{
+    width:100%;
+    height:100%;
+}
+/*种类*/
+.diaper_banner_img{
+    width:100%;
+    height:5.703125rem;
+}
+.diaper_banner_img img{
+    width:100%;
+    height:100%;
+}
+/*头部信息*/
+.diaper_shoping_header{
+    width:100%;
+    height:2.34375rem;
+}
+.diaper_shoping_header img{
+    width:100%;
+    height:100%;
+}
+/*商品详情*/
+.diaper .diaper_shoping_netx{
+    width:100%;
+}
+.diaper_shoping_netx ul{
+    overflow: hidden;
+}
+.diaper_shoping_netx ul li{
+    width:4.53125rem;
+    height:7.234375rem;
+    float: left;
+    margin: 0.3125rem 0 0 0.3125rem ;
+    background: #fff;
+    font-size:0.296875rem;
+}
+.diaper_shoping_netx ul li .diaper_shoping_netx_img{
+    width:4.53125rem;
+    height:4.40625rem;
+}
+.diaper_shoping_netx ul li .diaper_shoping_netx_img img{
+    width:100%;
+    height:100%;
+}
+.diaper_shoping_netx ul li .diaper_shoping_netx_name{
+    height:1.025815rem;
+    width:4.103125rem;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 0.5375rem;
+    font-size:0.296875rem;
+    padding-top:0.09375rem;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    display: -webkit-box;
+}
+.diaper_shoping_netx ul li .text{
+    height: 0.50375rem;
+    width:4.403125rem;
+    margin: 0 auto;
+    line-height: 0.50375rem;
+    color: #f58d44;
+}
+.diaper_shoping_netx ul li .diaper_shoping_netx_price{
+    width:100%;
+    height:1.171875rem;
+    display: flex;
+}
+.diaper_shoping_netx_price .diaper_shoping_netx_price_{
+    width:4.403125rem;
+    height:1.071875rem;
+    color: red;
+}
+.diaper_shoping_netx_price_ p{
+    margin-top:0.2345rem;
+}
+/*尤妮佳纸尿裤*/
+.diaper .diaper_shoping_ynj{
+    width:100%;
+}
+.diaper_shoping_ynj ul{
+    overflow: hidden;
+}
+.diaper_shoping_ynj ul li{
+    width:4.53125rem;
+    height:7.234375rem;
+    float: left;
+    margin: 0.3125rem 0 0 0.3125rem ;
+    background: #fff;
+    font-size:0.296875rem;
+}
+.diaper_shoping_ynj ul li .diaper_shoping_ynj_img{
+    width:4.53125rem;
+    height:4.40625rem;
+}
+.diaper_shoping_ynj ul li .diaper_shoping_ynj_img img{
+    width:100%;
+    height:100%;
+}
+.diaper_shoping_ynj ul li .diaper_shoping_ynj_name{
+    height:1.025815rem;
+    width:4.103125rem;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 0.5375rem;
+    font-size:0.296875rem;
+    padding-top:0.09375rem;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    display: -webkit-box;
+}
+.diaper_shoping_ynj ul li .text{
+    height: 0.50375rem;
+    width:4.403125rem;
+    margin: 0 auto;
+    line-height: 0.50375rem;
+    color: #f58d44;
+}
+.diaper_shoping_ynj ul li .diaper_shoping_ynj_price{
+    width:100%;
+    height:1.171875rem;
+    display: flex;
+}
+.diaper_shoping_ynj_price .diaper_shoping_ynj_price_{
+    width:4.403125rem;
+    height:1.071875rem;
+    color: red;
+}
+.diaper_shoping_ynj_price_ p{
+    margin-top:0.2345rem;
+}
+/*coon日本*/
+.diaper .diaper_shoping_coon{
+    width:100%;
+}
+.diaper_shoping_coon ul{
+    overflow: hidden;
+}
+.diaper_shoping_coon ul li{
+    width:4.53125rem;
+    height:7.234375rem;
+    float: left;
+    margin: 0.3125rem 0 0 0.3125rem ;
+    background: #fff;
+    font-size:0.296875rem;
+}
+.diaper_shoping_coon ul li .diaper_shoping_coon_img{
+    width:4.53125rem;
+    height:4.40625rem;
+}
+.diaper_shoping_coon ul li .diaper_shoping_coon_img img{
+    width:100%;
+    height:100%;
+}
+.diaper_shoping_coon ul li .diaper_shoping_coon_name{
+    height:1.025815rem;
+    width:4.103125rem;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 0.5375rem;
+    font-size:0.296875rem;
+    padding-top:0.09375rem;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    display: -webkit-box;
+}
+.diaper_shoping_coon ul li .text{
+    height: 0.50375rem;
+    width:4.403125rem;
+    margin: 0 auto;
+    line-height: 0.50375rem;
+    color: #f58d44;
+}
+.diaper_shoping_coon ul li .diaper_shoping_coon_price{
+    width:100%;
+    height:1.171875rem;
+    display: flex;
+}
+.diaper_shoping_coon_price .diaper_shoping_coon_price_{
+    width:4.403125rem;
+    height:1.071875rem;
+    color: red;
+}
+.diaper_shoping_coon_price_ p{
+    margin-top:0.2345rem;
+}
+/*脚部信息*/
+
+.diaper_forder{
+    width:100%;
+    height:2.89025rem;
+}
+.diaper_forder .diaper_forder_top{
+    width:100%;
+    height:0.812rem;
+    line-height: 0.812rem;
+    background: #989898;
+    color: #fff;
+}
+.diaper_forder_top ul{
+    display: flex;
+    align-items: center;
+}
+.diaper_forder_top ul li{
+    width:50%;
+    text-align: center;
+}
+.diaper_forder .diaper_forder_bottom{
+    width:7.578125rem;
+    height:2.07825rem;
+    margin:0 auto;
+}
+.diaper_forder_bottom ul{
+    display: flex;
+}
+.diaper_forder_bottom ul li {
+    width:2.578125rem;
+    height:2.07825rem;
+}
+.diaper_forder_bottom ul li:first-of-type div{
+    width:0.859375rem;
+    height:1.109375rem;
+    margin:0.234375rem auto 0;
+}
+.diaper_forder_bottom ul li:first-of-type  div img{
+    width:100%;
+    height:100%;
+}
+.diaper_forder_bottom ul li:nth-of-type(2) div{
+    width:0.625rem;
+    height:1.109375rem;
+    margin:0.234375rem auto 0;
+}
+.diaper_forder_bottom ul li:nth-of-type(2) div img{
+    width:100%;
+    height:100%;
+}
+.diaper_forder_bottom ul li:last-of-type div{
+    width:1.203125rem;
+    height:1.109375rem;
+    margin:0.234375rem auto 0;
+}
+.diaper_forder_bottom ul li:last-of-type div img{
+    width:100%;
+    height:100%;
+}
+.diaper_forder_bottom ul li p{
+    text-align: center;
+    font-size: 0.428175rem;
+    color: #4c4c4c;
+}
+.diaper_forder_infor{
+    width:7.578125rem;
+    height:1.5625rem;
+    margin:0 auto;
+    text-align: center;
+    line-height:1.5625rem;
+    margin-bottom: 5rem;
+}

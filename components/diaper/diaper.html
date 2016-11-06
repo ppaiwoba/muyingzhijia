@@ -1,0 +1,184 @@
+<div class="diaper">
+    <!--头部-->
+    <div class="diaper_header">
+        <div class="diaper_header_left">
+            <a ui-sref="home">
+                <i class="iconfont">&#xe600;</i>
+            </a>
+        </div>
+        <div class="diaper_header_center">新人专享 - 商品精选</div>
+        <div class="diaper_header_right">
+            <a ui-sref="cart">
+                <div class="diaper_header_right_">
+                    <img src="./images/cart.png"/>
+                    <div class="diaper_number">0</div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--banner-->
+    <div class="diaper_banner">
+        <img src="./images/20160120120107_31_0721znksj-01.jpg"/>
+    </div>
+    <!--种类-->
+    <div class="diaper_banner_img">
+        <img src="./images/0721znksj-02.jpg" usemap="#planemap">
+    </div>
+    <map name="planemap">
+        <area shape="rect" coords="0,0,159,179" ng-click="demo()">
+        <area shape="rect" coords="160,0,320,179" ng-click="demo1()">
+        <area shape="rect" coords="321,0,481,179" ng-click="demo2()">
+        <area shape="rect" coords="482,0,640,179" ng-click="demo3()">
+    </map>
+    <!--商品名称-->
+    <!--品牌纸尿裤-->
+    <div class="diaper_shoping_header">
+        <img src="./images/0721znksj-03.jpg" id="demo"/>
+    </div>
+    <!--商品信息-->
+    <div class="diaper_shoping_netx">
+        <ul>
+            <li ng-repeat="x in merries" ProductId="{{x.ProductId}}">
+                <div class="diaper_shoping_netx_img">
+                    <img ng-src="{{x.ImgUrl}}"/>
+                </div>
+                <div class="diaper_shoping_netx_name">
+                   {{x.ProductName}}
+                </div>
+                <p class="text">妈咪特产</p>
+                <div class="diaper_shoping_netx_price">
+                    <div class="diaper_shoping_netx_price_">
+                        <p><em class="diaper_em">￥</em>{{x.PromPriceShow}}</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--尤妮佳纸尿裤-->
+    <!--商品名称-->
+    <div class="diaper_shoping_header">
+        <img ng-src="./images/0721znksj-06.jpg" id="demo1"/>
+    </div>
+    <div class="diaper_shoping_ynj">
+        <ul>
+            <li ng-repeat="x in pampers" ProductId="{{x.ProductId}}">
+                <div class="diaper_shoping_ynj_img">
+                    <img ng-src="{{x.ImgUrl}}"/>
+                </div>
+                <div class="diaper_shoping_ynj_name">
+                    {{x.ProductName}}
+                </div>
+                <p class="text">{{x.ProductNamenext}}</p>
+                <div class="diaper_shoping_ynj_price">
+                    <div class="diaper_shoping_ynj_price_">
+                        <p><em class="diaper_em">￥</em>{{x.PromPriceShow}}</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!--coon日本-->
+    <!--商品名称-->
+    <div class="diaper_shoping_header">
+        <img src="./images/0721znksj-05.jpg" id="demo2"/>
+    </div>
+    <div class="diaper_shoping_coon">
+        <ul>
+            <li ng-repeat="x in coon" ProductId="{{x.ProductId}}">
+                <div class="diaper_shoping_coon_img">
+                    <img ng-src="{{x.ImgUrl}}"/>
+                </div>
+                <div class="diaper_shoping_coon_name">
+                    {{x.ProductName}}
+                </div>
+                <p class="text">{{x.ProductNamenext}}</p>
+                <div class="diaper_shoping_coon_price">
+                    <div class="diaper_shoping_coon_price_">
+                        <p><em class="diaper_em">￥</em>{{x.PromPriceShow}}</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+<!--脚步-->
+    <div class="diaper_forder">
+        <div class="diaper_forder_top">
+            <ul >
+                <li>登录</li>
+                <li>注册</li>
+            </ul>
+        </div>
+
+        <div class="diaper_forder_bottom">
+            <ul>
+                <li>
+                    <div>
+                        <img src="./images/IconAPP.png"/>
+                    </div>
+                    <p>客户端</p>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/IconPAD.png"/>
+                    </div>
+                    <p>触屏版</p>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/IconPC.png"/>
+                    </div>
+                    <p>电脑版</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--底部-->
+    <div class="diaper_forder_infor">
+        <p> copyright© 2003-2016 m.muyingzhijia.com
+        </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>

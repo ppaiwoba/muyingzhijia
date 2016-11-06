@@ -1,0 +1,193 @@
+{
+  "products": [
+    {
+      "BrandId": 686,
+      "SaleModel": 0,
+      "SpecShowId": 0,
+      "BrandName": "米菲",
+      "CommentCount": 0,
+      "MainPicUrl": "http://img.boodoll.cn/pdt/img/r5/bd9cd721091c398d_160x160.jpg",
+      "MainProductId": 205052,
+      "MarketPrice": 118,
+      "ProductCode": null,
+      "ProductId": 229783,
+      "ProductName": "米菲蓝点多功能护理包",
+      "SaleCount": 1,
+      "SalePrice": 94.4,
+      "Unit": "3",
+      "Weight": 0,
+      "proms": null,
+      "Message":"mifi",
+      "warehouses": [
+        100
+      ]
+    },
+    {
+      "BrandId": 804,
+      "SaleModel": 0,
+      "SpecShowId": 0,
+      "BrandName": "贝杰/Bellotte",
+      "CommentCount": 0,
+      "MainPicUrl": "http://img.boodoll.cn/pdt/img/b5/55786039a70c4545_160x160.jpg",
+      "MainProductId": 200575,
+      "MarketPrice": 288,
+      "ProductCode": null,
+      "ProductId": 201218,
+      "ProductName": "贝杰粉色圆点大包 T14006",
+      "SaleCount": 0,
+      "SalePrice": 199,
+      "Unit": "1",
+      "Weight": 0,
+      "Message":"beJpink",
+      "proms": null,
+      "warehouses": [
+        100
+      ]
+    },
+    {
+      "BrandId": 804,
+      "SaleModel": 0,
+      "SpecShowId": 0,
+      "BrandName": "贝杰/Bellotte",
+      "CommentCount": 0,
+      "MainPicUrl": "http://img.boodoll.cn/pdt/img/s4/254d70ebfd62d92f_160x160.jpg",
+      "MainProductId": 200575,
+      "MarketPrice": 288,
+      "ProductCode": null,
+      "ProductId": 201219,
+      "ProductName": "贝杰蓝色圆点大包 T14007",
+      "SaleCount": 1,
+      "SalePrice": 199,
+      "Unit": "1",
+      "Weight": 0,
+      "Message":"beJbule",
+      "proms": null,
+      "warehouses": [
+        100
+      ]
+    },
+    {
+      "BrandId": 804,
+      "SaleModel": 0,
+      "SpecShowId": 0,
+      "Message":"beJchilds",
+      "BrandName": "贝杰/Bellotte",
+      "CommentCount": 1,
+      "MainPicUrl": "http://img.boodoll.cn/pdt/img/r5/3a72ff4baa7bb73_160x160.jpg",
+      "MainProductId": 200576,
+      "MarketPrice": 288,
+      "ProductCode": null,
+      "ProductId": 201220,
+      "ProductName": "贝杰童趣双肩妈咪包 T14017",
+      "SaleCount": 3,
+      "SalePrice": 199,
+      "Unit": "1",
+      "Weight": 0,
+      "proms": null,
+      "warehouses": [
+        100
+      ]
+    },
+    {
+      "BrandId": 804,
+      "SaleModel": 0,
+      "SpecShowId": 0,
+      "BrandName": "贝杰/Bellotte",
+      "CommentCount": 47,
+      "MainPicUrl": "http://img.boodoll.cn/Product/normal/106796_01_01.jpg",
+      "MainProductId": 106796,
+      "MarketPrice": 128,
+      "ProductCode": null,
+      "ProductId": 106796,
+      "ProductName": "Woolworths（华纳系列）绗缝包K1051",
+      "SaleCount": 138,
+      "SalePrice": 99,
+      "Unit": "1",
+      "Weight": 0,
+      "proms": null,
+      "warehouses": [
+        100
+      ]
+    }
+  ],
+  "categorys": [
+    {
+      "CateId": 11,
+      "ParentCateId": 1,
+      "CateLevel": 1,
+      "CateName": "妈妈专区",
+      "GoodsCount": 5,
+      "SortOrder": 0,
+      "HasClild": true
+    },
+    {
+      "CateId": 98,
+      "ParentCateId": 11,
+      "CateLevel": 2,
+      "CateName": "外出用品",
+      "GoodsCount": 5,
+      "SortOrder": 0,
+      "HasClild": true
+    },
+    {
+      "CateId": 190,
+      "ParentCateId": 98,
+      "CateLevel": 3,
+      "CateName": "妈妈包",
+      "GoodsCount": 5,
+      "SortOrder": 0,
+      "HasClild": false
+    }
+  ],
+  "brands": [
+    {
+      "BrandId": 686,
+      "BrandName": "米菲",
+      "GoodsCount": 1,
+      "SortOrder": 0
+    },
+    {
+      "BrandId": 804,
+      "BrandName": "贝杰/Bellotte",
+      "GoodsCount": 4,
+      "SortOrder": 0
+    }
+  ],
+  "props": [
+    {
+      "PropId": 61,
+      "PropName": "产地",
+      "SortOrder": 5,
+      "IsKeyProp": true,
+      "PropValList": [
+        {
+          "PropValId": 714,
+          "PropValName": "中国",
+          "GoodsCount": 5
+        }
+      ],
+      "CateId": 0
+    }
+  ],
+  "priceLevels": [
+    {
+      "MinPrice": 0,
+      "MaxPrice": 100
+    },
+    {
+      "MinPrice": 100,
+      "MaxPrice": 200
+    }
+  ],
+  "warehouses": [
+    {
+      "StockIds": [
+        100
+      ],
+      "StockName": "母婴之家发货",
+      "GoodsCount": 5,
+      "SortOrder": 0
+    }
+  ],
+  "pdtnum": 5
+}

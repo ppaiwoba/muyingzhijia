@@ -1,0 +1,76 @@
+.landing{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.landing_header{
+    padding-top: 0.78125rem;
+    display: flex;
+    height: 0.6875rem;
+}
+.landing_header div i{
+    line-height: 0.6875rem;
+    width: 0.40625rem;
+    color: #d2a28b;
+    font-size: 0.6975rem;
+}
+.landing_header p{
+    line-height: 0.6875rem;
+    width: 9.2656rem;
+    text-align: center;
+    font-size: 0.523rem;
+}
+.landing_input{
+    margin: 1.34375rem auto 0;
+    width: 8.359rem;
+}
+.landing_input_mail input{
+    width: 100%;
+    border: 0 solid red;
+    outline: none;
+    text-align: center;
+    height: 1.5rem;
+    border-bottom: 0.031rem solid #ffb064;
+    font-size: 0.40625rem;
+}
+/*.landing_input{*/
+    /*position: relative;*/
+/*}*/
+.landing_input_mail_phoneNum{
+    position: absolute;
+}
+.landing_input_mail_correct{
+    position: absolute;
+}
+
+.landing_input_mail input::-webkit-input-placeholder{
+    font-size:0.40625rem;
+}
+.landing_input_mail input::-moz-placeholder{
+    font-size:0.40625rem;
+}
+.landing_input_forget{
+    line-height: 1.234rem;
+    color: #e66309;
+    font-size: 0.34275rem;
+    width: 1.593rem;
+    margin-left: 6.765rem;
+}
+.landing_input_btn{
+    height: 1.1875rem;
+    line-height: 1.1875rem;
+    text-align: center;
+    background-color: #ff9f60;
+    font-size: 0.39rem;
+    color: white;
+    border-radius: 0.59375rem;
+}
+.landing_input_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.landing_input_footer div{
+    line-height: 1.7343rem;
+    font-size: 0.3906rem;
+    color: #f77422;
+}

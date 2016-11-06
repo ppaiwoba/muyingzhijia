@@ -1,0 +1,305 @@
+.tab-bar {
+    display: none;
+}
+
+.babyHome {
+    width: 100%;
+    height: 100%;
+    background-color: #fff5db;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.babyHome_em {
+    font-style: normal;
+}
+
+/*顶部*/
+.babyHome .babyHome_header {
+    width: 100%;
+    height: 1.40625rem;
+    display: flex;
+    background-color: #ff6600;
+}
+
+.babyHome .babyHome_header div:first-of-type {
+    width: 2rem;
+    height: 1.40625rem;
+    line-height: 1.40625rem;
+}
+
+.babyHome_header_left .iconfont {
+    font-size: 0.625rem !important;
+    color: #fff;
+    text-indent: 0.3125rem;
+}
+
+.babyHome .babyHome_header div:nth-of-type(2) {
+    width: 6rem;
+    height: 1.40625rem;
+    font-size: 0.546875rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.40625rem;
+}
+
+.babyHome .babyHome_header div:last-of-type {
+    width: 2rem;
+    height: 1.40625rem;
+}
+
+.babyHome .babyHome_header div:last-of-type div {
+    width: 1.625rem;
+    height: 0.859375rem;
+}
+
+/*banner*/
+.babyHome .babyHome_banner {
+    height: 3.21875rem;
+    width: 100%;
+}
+
+.babyHome .babyHome_banner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*新人特权*/
+.babyHome .babyHome_top {
+    width: 100%;
+    height: 1.015625rem;
+    overflow: hidden;
+}
+
+.babyHome .babyHome_top img {
+    width: 100%;
+    height: 100%;
+}
+
+.babyHome .babyHome_time {
+    width: 100%;
+    height: 1.1875rem;
+    line-height: 1.1875rem;
+    text-align: center;
+    background: #ff6600;
+    position: relative;
+}
+
+.babyHome_time p {
+    font-size: 0.359375rem;
+    color: #fff;
+}
+
+.babyHome_time .iconfont {
+    color: #ff6600;
+    position: absolute;
+    bottom: -0.71rem;
+    left: 48%;
+}
+
+/*商品信息*/
+.babyHome .babyHome_shoping {
+    width: 100%;
+}
+
+.babyHome_shoping ul {
+    overflow: hidden;
+}
+
+.babyHome_shoping ul li {
+    width: 4.53125rem;
+    height: 7.234375rem;
+    float: left;
+    margin: 0.3125rem 0 0 0.3125rem;
+    background: #fff;
+    font-size: 0.296875rem;
+}
+
+.babyHome_shoping ul li .babyHome_shoping_img {
+    width: 4.53125rem;
+    height: 4.40625rem;
+}
+
+.babyHome_shoping ul li .babyHome_shoping_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.babyHome_shoping ul li .babyHome_shoping_name {
+    height: 1.125815rem;
+    width: 4.203125rem;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 0.5375rem;
+    font-size: 0.296875rem;
+    padding-top: 0.09375rem;
+}
+
+.babyHome_shoping ul li .text {
+    height: 0.34375rem;
+    width: 100%;
+    line-height: 0.34375rem;
+}
+
+.babyHome_shoping ul li .babyHome_shoping_price {
+    width: 100%;
+    height: 1.171875rem;
+    display: flex;
+}
+
+.babyHome_shoping .babyHome_shoping_price .babyHome_shoping_price_left {
+    width: 1.953125rem;
+    height: 1.171875rem;
+    line-height: 1.171875rem;
+    text-align: center;
+    color: #fb0010;
+}
+
+.babyHome_shoping_price .babyHome_shoping_price_right {
+    width: 2.578125rem;
+    height: 1.171875rem;
+    line-height: 1.171875rem;
+    text-align: center;
+
+}
+
+.babyHome_shoping_price .babyHome_shoping_price_right span {
+    width: 1.609375rem;
+    height: 0.78125rem;
+    line-height: 0.78125rem;
+    text-align: center;
+    background: #f66b02;
+    display: inline-block;
+    border-radius: 0.15625rem;
+}
+
+.babyHome .babyHome_bottom {
+    width: 100%;
+    height: 1.015625rem;
+    overflow: hidden;
+    margin-top: 0.3125rem;
+}
+
+.babyHome .babyHome_bottom img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 品牌纸尿裤*/
+.babyHome .babyHome_shoping_netx {
+    width: 100%;
+}
+
+.babyHome_shoping_netx ul {
+    overflow: hidden;
+}
+
+.babyHome_shoping_netx ul li {
+    width: 4.53125rem;
+    height: 7.234375rem;
+    float: left;
+    margin: 0.3125rem 0 0 0.3125rem;
+    background: #fff;
+    font-size: 0.296875rem;
+}
+
+.babyHome_shoping_netx ul li .babyHome_shoping_netx_img {
+    width: 4.53125rem;
+    height: 4.40625rem;
+}
+
+.babyHome_shoping_netx ul li .babyHome_shoping_netx_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.babyHome_shoping_netx ul li .babyHome_shoping_netx_name {
+    height: 1.025815rem;
+    width: 4.103125rem;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 0.5375rem;
+    font-size: 0.296875rem;
+    padding-top: 0.09375rem;
+}
+
+.babyHome_shoping_netx ul li .text {
+    height: 0.34375rem;
+    width: 4.403125rem;
+    margin: 0 auto;
+    line-height: 0.34375rem;
+    color: #f58d44;
+}
+
+.babyHome_shoping_netx ul li .babyHome_shoping_netx_price {
+    width: 100%;
+    height: 1.171875rem;
+    display: flex;
+}
+
+.babyHome_shoping_netx .babyHome_shoping_netx_price .babyHome_shoping_netx_price_left {
+    width: 50%;
+    height: 1.171875rem;
+    line-height: 1.171875rem;
+    text-align: center;
+    color: #fff;
+    background-color: #ff85ac;
+}
+
+.babyHome_shoping_netx_price .babyHome_shoping_netx_price_right {
+    width: 50%;
+    height: 1.171875rem;
+    line-height: 1.171875rem;
+    text-align: center;
+    background-color: #e45279;
+    color: #fff;
+}
+
+.babyHome_footer_banner {
+    height: 5.9375rem;
+    width: 100%;
+}
+
+.babyHome_footer_banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.babyHome_footer {
+    width: 100%;
+    height: 1.40625rem;
+    border-top: 0.03125rem solid #938d8f;
+    position: fixed;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.babyHome_footer ul {
+    width: 100%;
+    display: flex;
+}
+
+.babyHome_footer ul li {
+    width: 50%;
+    height: 1.40625rem;
+}
+
+.babyHome_footer ul li div {
+    width: 0.609375rem;
+    height: 0.734375rem;
+    margin: 0.15625rem auto 0;
+}
+
+.babyHome_footer ul li div img {
+    width: 100%;
+    height: 100%;
+}
+
+.babyHome_footer ul li p {
+    text-align: center;
+    font-size: 0.28125rem;
+    color: #938d8f;
+}
+

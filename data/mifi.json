@@ -1,0 +1,91 @@
+{
+  "GoodsDetails": {
+    "gid": 229783,
+    "title": "米菲蓝点多功能护理包",
+    "brand": "米菲",
+    "BrandPic": "http://img.boodoll.cn//pdt/brand/img/a1/686.jpg",
+    "pic_url": "http://img.boodoll.cn/pdt/img/r5/bd9cd721091c398d_380x380.jpg",
+    "SaleState": 2,
+    "FromSaleQty": 1,
+    "SpecShowId": 0,
+    "SaleModel": 0,
+    "attrs": [
+      {
+        "Key": "商品名称",
+        "Value": "米菲蓝点多功能护理包"
+      }
+    ],
+    "Color": "蓝色",
+    "desc": "http://img.boodoll.cn//pdt/desc/201606/20160620150402_555_6360203201519838565757338.jpg",
+    "price": 94.4,
+    "stock": 5,
+    "marketprice": 118,
+    "score": 5,
+    "ProductType": 1,
+    "PromotionId": 12402,
+    "PromotionPrice": 78,
+    "PromotionBeginTime": "/Date(1475251200000-0000)/",
+    "PromotionEndTime": "/Date(1478275200000-0000)/",
+    "PromotionState": 0,
+    "PromotionTitle": "米菲专享价",
+    "PromotionBuyTopLimit": 0,
+    "PromotionTime": 0,
+    "IsSecondKill": false,
+    "CommentCount": 0,
+    "Commentstar": 0,
+    "CategoryId": 11,
+    "IsStart": false,
+    "ProductAttr": 0,
+    "brandId": 686,
+    "vchCateName": "妈妈专区",
+    "vchCateChildName": "外出用品",
+    "vchCateThirdName": "妈妈包",
+    "intWebChildType": 98,
+    "intWebThirdType": 190,
+    "Category1stErp": 6,
+    "Category2ndErp": 42,
+    "Category3rdErp": 10134,
+    "Category1stNameErp": "哺育喂养",
+    "Category2ndNameErp": "外出",
+    "Category3rdNameErp": "储存/收纳",
+    "intAttribute": 1,
+    "WareHouseName": "母婴之家发货",
+    "WareHouseSysNo": 100,
+    "TaxRate": 17,
+    "Tariff": 0,
+    "MallType": 1,
+    "CarriageStrategySysNo": 1,
+    "PayStrategySysNo": 1,
+    "SupplierId": 13911,
+    "Customsinformation": 0,
+    "DeliveryType": 1,
+    "SpecOrder": 0,
+    "ColorOrder": 499,
+    "ReturnOfGoodsTips": "出库15天内可退货√",
+    "IsPromotionLimit": false
+  },
+  "ProductImageList": [
+    {
+      "url": "http://img.boodoll.cn/pdt/img/r5/bd9cd721091c398d_380x380.jpg"
+    },
+    {
+      "url": "http://img.boodoll.cn/pdt/img/p5/4c5af4055a76e0d5_380x380.jpg"
+    },
+    {
+      "url": "http://img.boodoll.cn/pdt/img/b9/3983063572d159ef_380x380.jpg"
+    },
+    {
+      "url": "http://img.boodoll.cn/pdt/img/o7/a0d023f19f293160_380x380.jpg"
+    },
+    {
+      "url": "http://img.boodoll.cn/pdt/img/e6/41cfc5e25effcd6a_380x380.jpg"
+    }
+  ],
+  "GoodsCoupons": {
+    "AllCouponNum": 0,
+    "IsGetCoupon": false,
+    "ReceivedNum": 0
+  },
+  "ResponseStatus": {},
+  "DoFlag": true
+}

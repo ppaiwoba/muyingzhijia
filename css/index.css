@@ -1,0 +1,82 @@
+/*重置样式*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, figure, footer, header, nav, section, time, audio, video {
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    font: 16px/1.5 '微软雅黑',Helvetica,Tahoma,Arial,'华文细黑',sans-serif;
+    color: #333;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: #787274;
+}
+.tab-bar{
+    width:10rem;
+    height:1.40625rem;
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content:space-around;
+    border-top: 0.03125rem solid #d5d5d5;
+    background-color: #fff;
+    z-index:999;
+}
+.tab-bar a{
+    width:2.5rem;
+    text-align: center;
+}
+.tab-bar a div{
+    width:0.78125rem;
+    height:0.78125rem;
+    margin:0.125rem auto 0;
+}
+.tab-bar a div img{
+    width:100%;
+    height:100%;
+}
+.tab-bar a p{
+    font-size:0.28125rem;
+}
+.container{
+    width:10rem;
+    height:100%;
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+/*回到顶部*/
+.actGotop{
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    border: 0.05rem solid #e2e2e2;
+    background-color: #fff;
+    position: fixed;
+    line-height:1.25rem;
+    text-align: center;
+    bottom: 1.875rem;
+    right: 0;
+    display: none;
+    z-index:999;
+}
+.actGotop i{
+    font-size: 0.625rem;
+    color: #767475;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}

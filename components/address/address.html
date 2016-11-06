@@ -1,0 +1,43 @@
+<div class="address">
+    <!--头部-->
+    <div class="address_header">
+        <div class="address_header_left">
+            <a ui-sref="cart">
+                <i class="iconfont">&#xe601;</i>
+            </a>
+        </div>
+        <div class="address_header_center">地址管理</div>
+        <div class="address_header_right">
+            <div class="compile"></div>
+        </div>
+    </div>
+	<div class="address_infor">
+		<ul>
+			<li ng-repeat="add in address_newadd">
+				<div class="address_infor_address">
+						<p>{{add.makeaddress_name}}</p>
+						<div class="address_infor_div">默认</div>
+					</div>
+					<div class="address_infor_address">
+						<p>{{add.makeaddress_city}}</p>
+					</div>
+					<div class="address_infor_address">
+						<p>{{add.makeaddress_site}}</p>
+					</div>
+					<div class="address_infor_address">
+						<p>{{add.makeaddress_phone}}</p>
+						<div ></div>
+					</div>
+			</li>
+		</ul>
+		<div></div>
+	</div>
+
+
+
+
+    <!--点击添加-->
+    <div class="address_add">
+        <a ui-sref="makeaddress"><span class="address_add_jia">+</span></a>
+    </div>
+</div>

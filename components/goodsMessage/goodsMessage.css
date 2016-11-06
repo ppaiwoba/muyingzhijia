@@ -1,0 +1,313 @@
+.tab-bar{
+	display: none !important;
+}
+/*搜索*/
+.goodsMessage_header{
+	width: 100%;
+	height: 1.375rem;
+	background-color: #fe6507;
+	display: flex;
+	justify-content:space-around;
+	line-height: 1.375rem;
+	padding-top: 0.25rem;
+	box-sizing:border-box;
+}
+.goodsMessage_theader_left{
+	width: 0.34375rem;
+	height:0.65625rem;
+	line-height: 0.65625rem;
+}
+.goodsMessage_theader_left i{
+	color:#fff;
+	font-size: 0.78125rem;
+}
+.goodsMessage_header_center{
+	height: 0.921875rem;
+	background-color: #ff8b3c;
+	line-height:0.921875rem;
+	color: #fff;
+	border-radius: 0.125rem;
+}
+.goodsMessage_header_center span{
+	margin-right: 0.078125rem;
+	margin-left: 0.15625rem;
+}
+.goodsMessage_header_center input{
+	border: none;
+	outline: none;
+	background-color: #ff8b3c;
+}
+.goodsMessage_header_center input::-webkit-input-placeholder{
+	color:#fff;
+}
+.goodsMessage_headerCar{
+	width:0.9375rem;
+	height:0.9375rem;
+	position: relative;
+}
+.goodsMessage_headerCar img{
+	width:100%;
+	height:100%;
+}
+.goodsMessage_headerCar span{
+	width:0.40625rem;
+	height:0.40625rem;
+	line-height: 0.40625rem;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #fff;
+	color:#ff630a;
+	position: absolute;
+	top:-0.046875rem;
+	right:-0.03125rem;
+}
+/*搜索结束*/
+.goodsMessage_top_top{
+	padding:0.3125rem;
+	background-color: #fff;
+	margin-bottom: 0.46875rem;
+	height:8.75rem;
+}
+.goodsMessage_topImg{
+	height:8.75rem;
+	overflow: hidden;
+}
+.goodsMessage_topImg img{
+	width:100%;
+	height:100%;
+}
+.goodsMoneyMessage{
+	width:100%;
+	height:2.75rem;
+	background-color: #fff;
+	padding-left: 0.296875rem;
+}
+
+.goodsMessage_top{
+	height:0.6875rem;
+	line-height: 0.6875rem;
+	color:#c6130e;
+	border-bottom: 2px solid #d5d5d5;
+}
+
+.goodsMoneyMessage_top p span{
+	font-size: 0.40625rem;
+}
+.goodsMessage_center p{
+	margin-top: 0.203125rem;
+	color:#000000;
+	font-size: 0.21875rem;
+}
+.goodsMessage_center p:last-of-type{
+	color:#aa202d;
+}
+.goodsMessage_sendmessage{
+	background-color: #d2d2d2;
+	height:0.75rem;
+	line-height: 0.75rem;
+	width:100%;
+	margin-bottom: 0.15625rem;
+}
+.goodsMessage_sendmessage p{
+	float:right;
+	margin-right: 0.234375rem;
+	font-size: 0.28125rem;
+}
+.goodsMessage_standard{
+	padding-left: 0.15625rem;
+	height:2.8125rem;
+	margin-bottom: 0.3125rem;
+	background-color: #fff;
+}
+.goodsMessage_standard .first_div{
+	height:1.15625rem;
+	width:100%;
+	font-size: 0.34375rem;
+	color:#686264;
+	line-height: 1.15625rem;
+	display: inline-block;
+}
+/*i标签设置*/
+.goodsMessage_position{
+	width:1.78125rem;
+	position: relative;
+}
+.goodsMessage_standard i{
+	width:0.35rem;
+	height:0.35rem;
+	position: absolute;
+	color:#fff;
+	/*	top:0;
+        right:0;*/
+	background-color: #DA4405;
+	/*   position: relative;*/
+	top: .3rem;
+	right: 0.46rem;
+	font-size: .25rem;
+	/*   display: none;*/
+	float: right;
+
+	border-radius: .5rem 0rem 1.275rem .1rem;
+}
+.goodweight{
+	width:0.890625rem;
+	height:0.421875rem;
+	text-align: center;
+	line-height: 0.421875rem;
+	font-size: 0.140625rem;
+	padding: 0.125rem 0.21875rem;
+	border-radius:0.390625rem;
+	margin-top: 0.15625rem;
+	background-color: #fe6603;
+	color:#fff;
+
+}
+.goodsMessage_change{
+	height:1.5625rem;
+	background-color: #fff;
+	padding:0 0.46875rem;
+	line-height: 1.5625rem;
+	margin-bottom: 0.3125rem;
+}
+.goodsMessage_change p{
+	float: left;
+}
+.goodsMessage_change .change{
+	background:#9b6ad3;
+	width:0.6875rem;
+	height:0.6875rem;
+	border-radius: 0.078125rem;
+	line-height: 0.6875rem;
+	text-align: center;
+	display:block;
+	margin-top: 0.46875rem;
+	margin-right: 0.46875rem;
+}
+.goodsMessage_change i{
+	/*margin-left: 1.640625rem;*/
+	float:right;
+	font-size: 0.609375rem;
+}
+.goodsMessage_comment{
+	height:3.53125rem;
+	background-color: #fff;
+
+	padding-left: 0.46875rem;
+}
+.goodsMessage_massage img{
+	width:100%;
+	height:100%;
+}
+.goodsMessage_comment .goodsMessage_comment_top{
+	height:1.125rem;
+	line-height: 1.125rem;
+	font-size: 0.4375rem;
+	color:#000000;
+	border-bottom: 2px solid #cecece;
+}
+.goodsMessage_comment .goodsMessage_comment_top p{
+	float:left ;
+	color:#000000;
+}
+.goodsMessage_comment .goodsMessage_comment_top i{
+	float:right;
+	font-size: 0.59375rem;
+	margin-right: 0.546875rem;
+}
+.goodsMessage_comment .goodsMessage_comment_top .goodsMessage_percent{
+	color:#d6622f;
+}
+.goodsMessage_people{
+	height:1.40625rem;
+	border-bottom: 2px solid #cecece;
+}
+.goodsMessage_people div{
+	width:0.90625rem;
+	height:0.90625rem;
+	margin-top: 0.234375rem;
+}
+.goodsMessage_people div img{
+	width:100%;
+	height:100%;
+}
+.goodsMessage_people_bottom{
+	height:0.625rem;
+	line-height: 0.625rem;
+}
+.goodsMessage_massage_top{
+	padding-left:0.3125rem;
+	background-color: #fff;
+	height:3.96875rem;
+}
+.goodsMessage_massage_top h3{
+	margin-top: 0.3125rem;
+	height:1.140625rem;
+	line-height: 1.140625rem;
+	color:#000000;
+	border-bottom: 2px solid #cecece;
+	margin-bottom: 0.4375rem;
+}
+.goodsMessage_bottom_addCar{
+	width:100%;
+	height: 1.390625rem;
+	border-top: 2px solid #cecece;
+	display: flex;
+	justify-content:space-around;
+	line-height: 1.390625rem;
+	background-color: #fff;
+	position: fixed;
+	bottom:0;
+}
+.goodsMessage_firstDiv{
+	margin-top: 0.265625rem;
+	width:0.59375rem;
+	height:0.640625rem;
+}
+.goodsMessage_firstDiv img{
+	width:100%;
+	height:100%;
+}
+.goodsMessage_twoDiv{
+	width:2.65625rem;
+	height:0.9375rem;
+	margin-top: 0.265625rem;
+	border:2px solid #c2c2c2 ;
+	color:#000000;
+}
+.goodsMessage_twoDiv p{
+	float:left;
+	width:0.6675rem;
+	height:0.9375rem;
+	text-align: center;
+	line-height: 0.9375rem;
+	font-size: 0.15625rem;
+}
+.goodsMessage_twoDiv .minus{
+	border-right: 2px solid #c2c2c2;
+}
+.goodsMessage_twoDiv .add{
+	float:right;
+	border-left: 2px solid #c2c2c2;
+}
+.goodsMessage_twoDiv input{
+	width: 1.1875rem;
+	height:0.875rem;
+	text-align: center;
+	line-height: 0.475rem;
+	border:none;
+	float:left;
+}
+.goodsMessage_lastDiv input{
+	width:5.0625rem;
+	height:1.0rem;
+	text-align: center;
+	border: none;
+	background-color: #ff6600;
+	border-radius: 0.15625rem;
+	/*color:0.28125rem; */
+	color:#fff;
+}
+.null{
+	height: 1.490625rem;
+
+}

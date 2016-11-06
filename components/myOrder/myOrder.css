@@ -1,0 +1,226 @@
+.myOrder {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.myOrder .header {
+    height: 1.40625rem;
+    background-color: #ff6501;
+}
+
+.myOrder .header div {
+    float: left;
+    margin-left: 0.3593rem;
+    line-height: 1.10625rem;
+    font-size: 1.5rem;
+    width: 0.5625rem;
+    color: white;
+}
+
+.myOrder .header p {
+    display: inline-block;
+    color: white;
+    font-size: 0.5625rem;
+    line-height: 1.40625rem;
+    margin-left: 3.125rem;
+}
+
+.myOrder .order_list1 {
+    height: 1.71875rem;
+    background-color: white;
+    border-bottom: 0.031rem solid #ff6100;
+}
+
+.myOrder .order_list1 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.myOrder .order_list1 ul li {
+    line-height: 1.71875rem;
+}
+
+.myOrder .order_list1 ul li p {
+    font-size: 0.3125rem;
+    color: #807c7d;
+    text-align: center;
+    float: left;
+}
+
+.myOrder .order_list1 .vertical_line {
+    margin-left: 0.5rem;
+}
+
+.myOrder .order_list1 ul .border_bottom {
+    display: inline-block;
+    /*width: 1.5625rem;*/
+    height: 0.09375rem;
+    background-color: #ff6d00;
+    margin-top: 0.625rem;
+    border-radius: 0.091rem 0.091rem 0 0;
+    margin-left: 0.1875rem;
+}
+
+.myOrder .list_first .list_first_num {
+    position: absolute;
+    display: inline-block;
+    width: 0.4375rem;
+    height: 0.4375rem;
+    background-color: #ff6500;
+    color: white;
+    font-size: 0.25rem;
+    text-align: center;
+    line-height: 0.4375rem;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+}
+
+.myOrder .myOrder_info {
+    width: 9.2656rem;
+    height: 7.5625rem;
+    background-color: white;
+    border-radius: 0.078125rem;
+    margin: 0.359rem auto;
+}
+
+.myOrder .myOrder_info_mall {
+    display: inline-block;
+    height: 3.75rem;
+    border-bottom: 0.0468rem solid #f5f5f5;
+    position: relative;
+}
+
+.myOrder .myOrder_info_mall .info_mall {
+    width: 0.8906rem;
+    height: 0.5rem;
+    border: 0.031rem solid #ee6a00;
+    border-radius: 0.0781rem;
+    line-height: 0.5rem;
+    text-align: center;
+    font-size: 0.281rem;
+    color: #ba6d53;
+    margin-left: 0.34375rem;
+    margin-top: 0.2968rem;
+}
+
+.myOrder .myOrder_info_mall_list {
+    /*width: 5.15265rem;*/
+    height: 2.6875rem;
+    margin-left: 0.34375rem;
+}
+
+.myOrder .myOrder_info_mall_list div {
+    line-height: 0.65625rem;
+}
+
+.myOrder .myOrder_info_mall_list div span {
+    display: inline-block;
+    font-size: 0.28125rem;
+    color: #636363;
+}
+
+.myOrder .myOrder_info_mall_list div .mall_list1 {
+    width: 1.95625rem;
+}
+
+.myOrder .myOrder_info_mall_list div .mall_list2 {
+    margin-left: 0.4518rem;
+    /*width: 3.278rem;*/
+}
+
+.myOrder .myOrder_info_mall_list div .nopay {
+    color: #e16b7b;
+}
+
+.myOrder .myOrder_info_mall .goPay {
+    width: 2.578rem;
+    height: 0.828rem;
+    border-radius: 0.0781rem;
+    background-color: #ff6501;
+    color: white;
+    text-align: center;
+    line-height: 0.828rem;
+    font-size: 0.28125rem;
+    position: absolute;
+    /*top: 0;*/
+    top: 2.46875rem;
+    left: 6.359rem;
+}
+
+/*.info_detail{*/
+/**/
+/*}*/
+.myOrder .info_detail .info_detail_list {
+    height: 2.4218rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.myOrder .info_detail .info_detail_list > div {
+    width: 0.625rem;
+    line-height: 2.25rem;
+}
+
+.myOrder .info_detail .info_detail_list .info_detail_list_right {
+    margin-right: 0.5rem;
+}
+
+.myOrder .info_detail .info_detail_list .info_detail_list_left {
+    margin:0 0.0625rem 0 0.5rem;
+}
+
+.myOrder .info_detail_list .iconfont {
+    font-size: 0.78125rem;
+}
+
+.myOrder .info_detail .info_detail_list .info_detail_list_img {
+    width: 7.09375rem;
+    overflow: hidden;
+}
+
+.myOrder .info_detail .info_detail_list_img div {
+    width: 1.725rem;
+    height: 1.725rem;
+    margin-top: 0.3125rem;
+    display: inline-block;
+    float: left;
+}
+
+.myOrder .info_detail .info_detail_list_img div img {
+    width: 100%;
+    height: 100%;
+}
+
+.myOrder .infoBtn {
+    line-height: 1.406rem;
+    font-size: 0;
+}
+
+.myOrder .infoBtn div {
+    display: inline-block;
+    width: 2.5rem;
+    height: 0.8125rem;
+    text-align: center;
+    line-height: 0.8125rem;
+    font-size: 0.28125rem;
+    color: #696969;
+    border-radius: 0.0781rem;
+
+}
+
+.myOrder .infoBtn .info_cancle {
+    border: 0.031rem solid #727272;
+    margin-left: 0.40625rem;
+    margin-right: 3.359rem;
+}
+
+.myOrder .infoBtn .info_detail_btn {
+    border: 0.031rem solid #ff6100;
+}
+.myOrder .infoBtn .info_detail_btn a{
+    color: #ff6100;
+}

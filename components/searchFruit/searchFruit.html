@@ -1,0 +1,160 @@
+<div class='searchFruit'>
+	<div class='searchFruit_header'>
+			<!-- 	 暂时测试跳转 -->
+				<a ui-sref="sort">
+					<div class="searchFruit_theader_left">
+						<img src="./images/searchSousuo.png" alt="">
+					</div>
+				</a>
+	        	<a ui-sref='search'>
+	        		<div class="searchFruit_header_center">
+			            <span>
+			                <i class="iconfont">&#xe602;</i>
+			            </span>
+			            <input type="text" autofocus="autofocus" placeholder="搜索" class='searchFruit_top_input'>
+		        	</div>
+	        	</a>
+		        
+	</div>
+
+	<!-- 搜索导航栏 -->
+
+	<div class='searchFruit_nav'>
+		<ul id="ulID">
+			<a ui-sref="searchFruit" >
+				<li class="liClass">
+					综合排序
+					<span>|</span>
+				</li>
+			</a>
+			<a ui-sref="searchFruit">
+				<li class="liClass">
+					销售
+					<span>|</span>
+				</li>
+			</a>
+			<a ui-sref="searchFruit">
+				<li class="liClass">
+					价格
+					<span>|</span>
+					<span class='searchFruit_san1'></span>
+					<span class='searchFruit_san2'></span>
+				</li>
+			</a>
+			<a ui-sref="searchFruit">
+				<li class="liClass">
+					筛选
+					<span class="searchFruit_span3"></span>
+					<span class='searchFruit_span4'></span>
+				</li>
+			</a>
+		</ul>
+
+	</div>
+	<!-- 搜索信息列表 -->
+	<div class="massige_list">
+	<!-- 商品信息1 -->
+		<a ui-sref="goodsMessage"  ng-repeat="firstName in products" Message="{{firstName.Message}}" class="linkToNewPage" ng-click="test();">
+			<div class="product">
+				<div class="product_left">
+					<img ng-src={{firstName.MainPicUrl}} alt="">
+				</div>
+				<div class="product_right">
+					<div class='product_right_top'>
+						<p>{{firstName.ProductName}}<span class='product_right_massige'><span ></span></span></p>
+					</div>
+					<div class='product_right_div'><p >￥<span class='product_right_money'>{{firstName.SalePrice}}</span></p></div>
+					<div>
+						<i class="iconfont">0</i>
+						<i class="iconfont">0</i>
+						<i class="iconfont">0</i>
+						<i class="iconfont">0</i>
+						<i class="iconfont">0</i>
+						<span>({{firstName.CommentCount}}</span>人评论)</div>
+				</div>
+			</div>
+		</a>
+
+		<!-- 商品信息结束 -->
+		<!-- 综合排序选择单 -->
+		<div class='massige_list_sort'>
+			<ul>
+				<li>综合排序</li>
+				<li>按好评排序</li>
+				<li>按上架时间排序</li>
+			</ul>
+		</div>
+		<!-- 筛选列表 -->
+		
+	</div>
+	<div class='filter'>
+			<div class="filter_top">
+				<input type="text" value='清除条件' class="filter_clear">
+				<input type="text" value='确定' class='filter_add'>
+			</div>
+			<div class="filter_main">
+				<ul>
+					<li>
+						<p>品牌</p>
+						<div class="filter_main_right">
+							<p>全部</p>
+							<i class="iconfont">&#xe603;</i>
+						</div>
+					</li>
+					<li>
+						<p>学习玩具</p>
+						<div class="filter_main_right">
+							<p>全部</p>
+							<i class="iconfont">&#xe603;</i>
+						</div>
+					</li>
+					<li>
+						<p>适合年龄</p>
+						<div class="filter_main_right">
+							<p>全部</p>
+							<i class="iconfont">&#xe603;</i>			
+						</div>
+					</li>
+					<li>
+						<p>积木类型</p>
+						<div class="filter_main_right">
+							<p>全部</p>
+							<i class="iconfont">&#xe603;</i>
+						</div>
+					</li>
+					<li>
+						<p>玩具功能</p>
+						<div class="filter_main_right">
+							<p>全部</p>
+							<i class="iconfont">&#xe603;</i>
+						</div>
+					</li>
+					<li>
+						<p>性别</p>
+						<div class="filter_main_right">
+							<p>全部</p>
+							<i class="iconfont">&#xe603;</i>
+						</div>
+					</li>
+					<li>
+						<p>产地</p>
+						<div class="filter_main_right">
+							<p>全部</p>
+							<i class="iconfont">&#xe603;</i>
+						</div>
+					</li>
+					<li>
+						<p>价格</p>
+						<div class="filter_main_right">
+							<p>全部</p>
+							<i class="iconfont">&#xe603;</i>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	<div class="searchFruitNull">
+		亲~暂时没有更多商品啦！
+	</div>
+</div>
